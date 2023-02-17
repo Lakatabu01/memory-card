@@ -1,3 +1,7 @@
 .header-div{
     border: 2px solid red;
 }
+.card{
+    border: 2px solid red;
+    margin: 4px
+}
