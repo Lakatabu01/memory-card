@@ -43,7 +43,7 @@ const Card = () => {
 
   return (
     <div>
-      <div>
+      <div className="scoreboard">
         <div>Score: {score}</div>
         <div>highScore: {highScore}</div>
       </div>

@@ -1,7 +1,17 @@
 .header-div{
-    border: 2px solid red;
+    background-color:black;
+    color: white;
+    padding: 10px;
 }
 .card{
     border: 2px solid red;
     margin: 4px
+}
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.scoreboard > div {
+    padding: 10px;
 }
