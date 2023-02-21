@@ -32,3 +32,15 @@
     grid-row: inherit;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
 }
+.footer{
+    background-color:black;
+    color: white;
+    padding: 7px;
+    margin-top: 20px;
+}
+.score{
+    background-color: chartreuse;
+}
+.high-score{
+    background-color: orange;
+}

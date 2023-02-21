@@ -44,8 +44,8 @@ const Card = () => {
   return (
     <div>
       <div className="scoreboard">
-        <div>Score: {score}</div>
-        <div>highScore: {highScore}</div>
+        <div className="score">Score: {score}</div>
+        <div className="high-score">HighScore: {highScore}</div>
       </div>
 
       <div className="all-cards"> {loopThroughFishGroup} </div>
