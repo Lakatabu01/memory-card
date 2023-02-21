@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.0bfc6fb9.css",
+    "main.js": "/memory-card/static/js/main.e212f85c.js",
+    "static/media/fish8.jpg": "/memory-card/static/media/fish8.08f9c724a044ff2b58a1.jpg",
+    "static/media/fish3.jpg": "/memory-card/static/media/fish3.b7e115be9d658c26dd35.jpg",
+    "static/media/fish10.jpg": "/memory-card/static/media/fish10.2a6687230d9e20041d58.jpg",
+    "static/media/fish7.jpg": "/memory-card/static/media/fish7.efa99243d2ef28712768.jpg",
+    "static/media/fish6.jpg": "/memory-card/static/media/fish6.f7398ab92055ba8d7b9a.jpg",
+    "static/media/fish9.jpg": "/memory-card/static/media/fish9.1f85a89e3c2711283fb4.jpg",
+    "static/media/fish2.jpg": "/memory-card/static/media/fish2.02afabf3042456d7f08f.jpg",
+    "static/media/fish4.jpg": "/memory-card/static/media/fish4.71e0451a0ae841b27318.jpg",
+    "static/media/fish5.jpg": "/memory-card/static/media/fish5.b14c6823cfd48412478d.jpg",
+    "static/media/fish1.jpg": "/memory-card/static/media/fish1.eddfa47f8e63066692e5.jpg",
+    "index.html": "/memory-card/index.html",
+    "main.0bfc6fb9.css.map": "/memory-card/static/css/main.0bfc6fb9.css.map",
+    "main.e212f85c.js.map": "/memory-card/static/js/main.e212f85c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bfc6fb9.css",
+    "static/js/main.e212f85c.js"
+  ]
+}
