@@ -20,6 +20,12 @@ const Card = () => {
   }, []);
 
   const ScoreUpdater = (e) => {
+    if (score >= 10) {
+      setScore(0);
+
+      return;
+    }
+
     if (currentCard === e.target.nextSibling) {
       setScore(0);
     } else {
@@ -29,6 +35,12 @@ const Card = () => {
   };
 
   const highScoreUpdater = (e) => {
+    if (highScore >= 10) {
+      setHighScore(10);
+
+      return;
+    }
+
     if (score === highScore && e.target.nextSibling !== currentCard) {
       setHighScore(highScore + 1);
     }
