@@ -1,1 +1,1 @@
-This is a Memory card game built with React, it allows users to Get points by clicking on an image but each image should not be clicked on more than once!. Link:
+This is a Memory card game built with React, it allows users to Get points by clicking on an image but each image should not be clicked on more than once!. Link: https://lakatabu01.github.io/memory-card/
