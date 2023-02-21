@@ -20,16 +20,16 @@ const Card = () => {
   }, []);
 
   const ScoreUpdater = (e) => {
-    if (currentCard === e.target.lastChild) {
+    if (currentCard === e.target.nextSibling) {
       setScore(0);
     } else {
       setScore(score + 1);
-      setCurrentCard(e.target.lastChild);
+      setCurrentCard(e.target.nextSibling);
     }
   };
 
   const highScoreUpdater = (e) => {
-    if (score === highScore && e.target.lastChild !== currentCard) {
+    if (score === highScore && e.target.nextSibling !== currentCard) {
       setHighScore(highScore + 1);
     }
   };
@@ -48,7 +48,7 @@ const Card = () => {
         <div>highScore: {highScore}</div>
       </div>
 
-      {loopThroughFishGroup}
+      <div className="all-cards"> {loopThroughFishGroup} </div>
     </div>
   );
 };

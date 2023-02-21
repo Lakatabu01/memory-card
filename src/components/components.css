@@ -4,8 +4,20 @@
     padding: 10px;
 }
 .card{
-    border: 2px solid red;
-    margin: 4px
+    position: relative;
+    margin: 4px;
+    height: 300px;
+    border: 1px solid black;
+}
+.card > img {
+    width: 100%;
+    height: 100%;
+}
+.card > p {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 5px;
 }
 .scoreboard{
     display: flex;
@@ -14,4 +26,9 @@
 }
 .scoreboard > div {
     padding: 10px;
+}
+.all-cards{
+    display: grid;
+    grid-row: inherit;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));  
 }
